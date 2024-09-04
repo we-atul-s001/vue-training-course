@@ -1,3 +1,3 @@
 <template>
-    
+    <counter></counter>
 </template>
