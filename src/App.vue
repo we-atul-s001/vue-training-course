@@ -7,4 +7,8 @@
     <div>
         <counter-componsition></counter-componsition>
     </div>
+    <br>
+    <div>
+        <html-synat/>
+    </div>
 </template>
