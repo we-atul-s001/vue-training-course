@@ -1,4 +1,4 @@
-<!-- <template>
+<template>
     <div>
 
         <counter></counter>
@@ -15,8 +15,5 @@
     <br>
 
     
-</template> -->
-
-<template>
-    <computed></computed>
 </template>
+
