@@ -1,5 +1,6 @@
-<template>
+<!-- <template>
     <div>
+
         <counter></counter>
 
     </div>
@@ -9,6 +10,13 @@
     </div>
     <br>
     <div>
-        <html-synat/>
+        <html-synatx/>
     </div>
+    <br>
+
+    
+</template> -->
+
+<template>
+    <computed></computed>
 </template>
