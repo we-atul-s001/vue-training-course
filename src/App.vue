@@ -8,5 +8,9 @@
   <div>
     <input-binding></input-binding>
   </div>
+<br>
+  <div>
+    <watcher></watcher>
+  </div>
 </template>
 
