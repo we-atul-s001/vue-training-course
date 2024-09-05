@@ -1,14 +1,16 @@
 <template>
-    <div>
-        <counter></counter>
+  <div>
+    <counter-composition></counter-composition>
+  </div>
 
-    </div>
-    <br>
-    <div>
-        <counter-componsition></counter-componsition>
-    </div>
-    <br>
-    <div>
-        <html-synat/>
-    </div>
+  <br>
+
+  <div>
+    <input-binding></input-binding>
+  </div>
+<br>
+  <div>
+    <watcher></watcher>
+  </div>
 </template>
+

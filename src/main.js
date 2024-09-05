@@ -2,14 +2,18 @@ import './assets/main.css'
 
 import { createApp } from 'vue'
 import App from './App.vue'
-import Counter from './components/Counter.vue'
-import CounterComponsition from './components/CounterComponsition.vue'
-import HtmlSyntax from './components/HtmlSynatx.vue'
+
+import CounterComposition from './components/CounterComposition.vue'
+import InputBinding from "./components/InputBinding.vue";
+import Watcher from "./components/Watcher.vue";
+
 
 const app = createApp(App);
 
-app.component('Counter', Counter);
-app.component('CounterComponsition', CounterComponsition);
-app.component('HtmlSyntax', HtmlSyntax);
+
+app.component('CounterComposition', CounterComposition);
+app.component('InputBinding', InputBinding);
+app.component('Watcher', Watcher);
+
 
 app.mount('#app');
