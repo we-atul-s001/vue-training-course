@@ -12,5 +12,9 @@
   <div>
     <watcher></watcher>
   </div>
+  <br>
+  <div>
+    <props title="Atul Props" />
+  </div>
 </template>
 
