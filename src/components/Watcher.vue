@@ -24,6 +24,7 @@ watch(question, async (newQuestion ,oldQuestion) => {
   if(newQuestion.indexOf('?') > -1)
   {
     answer.value = "Thinking...";
+    result.value = '';
 
     try {
       const res = await fetch('https://yesno.wtf/api');
