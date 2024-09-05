@@ -7,11 +7,15 @@
 
     <input type="text" v-model="question" />
     <p>Answer: {{answer}}</p>
+
+    <br>
+    <input type="text" v-model="obj.count" />
+    <p>Answer: {{newValue}}</p>
   </div>
 </template>
 <script setup>
 
-import {ref, watch} from "vue";
+import {reactive, ref, watch} from "vue";
 
 const question = ref('');
 
@@ -37,4 +41,13 @@ watch(question, async (newQuestion ,oldQuestion) => {
     }
   }
 });
+
+const obj = reactive({count: 0});
+watch( () => obj.count,
+    (newValue) =>
+    {
+      console.log(newValue);
+    }
+
+);
 </script>
