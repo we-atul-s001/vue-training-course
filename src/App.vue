@@ -2,5 +2,19 @@
   <div>
     <counter-composition></counter-composition>
   </div>
+
+  <br>
+
+  <div>
+    <input-binding></input-binding>
+  </div>
+<br>
+  <div>
+    <watcher></watcher>
+  </div>
+  <br>
+  <div>
+    <props title="Atul Props" />
+  </div>
 </template>
 
