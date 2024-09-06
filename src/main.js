@@ -8,6 +8,7 @@ import InputBinding from "./components/InputBinding.vue";
 import Watcher from "./components/Watcher.vue";
 import Props from "./components/Props.vue";
 import Http from "./components/HTTP.vue";
+import FormHttp from "./components/FormHttp.vue";
 
 
 const app = createApp(App);
@@ -16,8 +17,9 @@ const app = createApp(App);
 app.component('CounterComposition', CounterComposition);
 app.component('InputBinding', InputBinding);
 app.component('Watcher', Watcher);
-app.component('Props', Props)
-app.component('Http', Http)
+app.component('Props', Props);
+app.component('Http', Http);
+app.component('FormHttp', FormHttp);
 
 
 app.mount('#app');

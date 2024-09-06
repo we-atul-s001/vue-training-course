@@ -20,4 +20,8 @@
   <div>
     <http></http>
   </div>
+  <br>
+  <div>
+    <form-http></form-http>
+  </div>
 </template>
